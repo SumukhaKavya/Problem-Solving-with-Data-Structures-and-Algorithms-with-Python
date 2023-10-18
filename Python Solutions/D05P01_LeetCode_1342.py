@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
-
-
 class Solution:
     def numberOfSteps(self, num: int) -> int:
         steps = 0
@@ -14,9 +11,6 @@ class Solution:
                 num = num >> 1
             steps += 1
         return steps
-
-
-# In[ ]:
 
 
 
