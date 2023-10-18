@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 class Solution:
     def countBits(self, n: int):
         lst=[]
